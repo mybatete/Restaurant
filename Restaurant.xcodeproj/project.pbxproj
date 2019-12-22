@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		2E24A8FC23867008004557A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E24A8FB23867008004557A3 /* AppDelegate.swift */; };
 		2E24A8FE23867008004557A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E24A8FD23867008004557A3 /* SceneDelegate.swift */; };
-		2E24A90023867008004557A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E24A8FF23867008004557A3 /* ViewController.swift */; };
 		2E24A90323867008004557A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E24A90123867008004557A3 /* Main.storyboard */; };
 		2E24A9052386700B004557A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E24A9042386700B004557A3 /* Assets.xcassets */; };
 		2E24A9082386700B004557A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E24A9062386700B004557A3 /* LaunchScreen.storyboard */; };
 		2E24A9132386700B004557A3 /* RestaurantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E24A9122386700B004557A3 /* RestaurantTests.swift */; };
 		2E24A91E2386700C004557A3 /* RestaurantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E24A91D2386700C004557A3 /* RestaurantUITests.swift */; };
+		2E24A92C238673DE004557A3 /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E24A92B238673DE004557A3 /* CategoryTableViewController.swift */; };
+		2E24A92E23867404004557A3 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E24A92D23867404004557A3 /* MenuTableViewController.swift */; };
+		2E24A9302386742F004557A3 /* OrderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E24A92F2386742F004557A3 /* OrderTableViewController.swift */; };
+		2E24A9322386756F004557A3 /* MenuItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E24A9312386756F004557A3 /* MenuItemDetailViewController.swift */; };
+		2E24A93423867661004557A3 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E24A93323867661004557A3 /* MenuItem.swift */; };
+		2E24A93A2386788F004557A3 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E24A9392386788F004557A3 /* MenuController.swift */; };
+		2E24A9782386819B004557A3 /* OrderConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E24A9772386819B004557A3 /* OrderConfirmationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +44,6 @@
 		2E24A8F823867008004557A3 /* Restaurant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Restaurant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E24A8FB23867008004557A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E24A8FD23867008004557A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2E24A8FF23867008004557A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2E24A90223867008004557A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2E24A9042386700B004557A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E24A9072386700B004557A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +54,13 @@
 		2E24A9192386700C004557A3 /* RestaurantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestaurantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E24A91D2386700C004557A3 /* RestaurantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantUITests.swift; sourceTree = "<group>"; };
 		2E24A91F2386700C004557A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E24A92B238673DE004557A3 /* CategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
+		2E24A92D23867404004557A3 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		2E24A92F2386742F004557A3 /* OrderTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableViewController.swift; sourceTree = "<group>"; };
+		2E24A9312386756F004557A3 /* MenuItemDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemDetailViewController.swift; sourceTree = "<group>"; };
+		2E24A93323867661004557A3 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		2E24A9392386788F004557A3 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		2E24A9772386819B004557A3 /* OrderConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderConfirmationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +113,14 @@
 			children = (
 				2E24A8FB23867008004557A3 /* AppDelegate.swift */,
 				2E24A8FD23867008004557A3 /* SceneDelegate.swift */,
-				2E24A8FF23867008004557A3 /* ViewController.swift */,
 				2E24A90123867008004557A3 /* Main.storyboard */,
+				2E24A93323867661004557A3 /* MenuItem.swift */,
+				2E24A9392386788F004557A3 /* MenuController.swift */,
+				2E24A9772386819B004557A3 /* OrderConfirmationViewController.swift */,
+				2E24A9312386756F004557A3 /* MenuItemDetailViewController.swift */,
+				2E24A92B238673DE004557A3 /* CategoryTableViewController.swift */,
+				2E24A92D23867404004557A3 /* MenuTableViewController.swift */,
+				2E24A92F2386742F004557A3 /* OrderTableViewController.swift */,
 				2E24A9042386700B004557A3 /* Assets.xcassets */,
 				2E24A9062386700B004557A3 /* LaunchScreen.storyboard */,
 				2E24A9092386700B004557A3 /* Info.plist */,
@@ -259,9 +277,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E24A90023867008004557A3 /* ViewController.swift in Sources */,
 				2E24A8FC23867008004557A3 /* AppDelegate.swift in Sources */,
+				2E24A92E23867404004557A3 /* MenuTableViewController.swift in Sources */,
+				2E24A9322386756F004557A3 /* MenuItemDetailViewController.swift in Sources */,
+				2E24A93A2386788F004557A3 /* MenuController.swift in Sources */,
 				2E24A8FE23867008004557A3 /* SceneDelegate.swift in Sources */,
+				2E24A9782386819B004557A3 /* OrderConfirmationViewController.swift in Sources */,
+				2E24A93423867661004557A3 /* MenuItem.swift in Sources */,
+				2E24A9302386742F004557A3 /* OrderTableViewController.swift in Sources */,
+				2E24A92C238673DE004557A3 /* CategoryTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
